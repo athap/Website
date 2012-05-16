@@ -28,6 +28,13 @@ section h1 {
 
 /* Links */
 
+#tabs-1 {
+  a {
+  color: #0000FF;
+  text-decoration: none;
+}
+}
+
 a {
   color: #09c;
   text-decoration: none;
