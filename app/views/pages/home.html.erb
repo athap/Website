@@ -1,29 +1,48 @@
-<p>Hi Guys. I am still learning Ruby on Rails and this website is a result of that. I mean its a simple website with a bunch of links. With the help of superb service by heroku, I was able to deploy my app for FREE. I am still learning how to be a better programmer and honestly, I try to learn by seeing how other good programmers code. I mostly write code in C# and java but lately I have developed an interest in the virtual environments like <a href="http://unity3d.com/" target="_blank">Unity 3D</a> and <a href="http://opensimulator.org/" target="_blank">OpenSim</a>. I am developing virtual experiments for students so that they can understand science better and perform experiments in virtual world which are difficult to preform in real world. I have also started learning Android programming (I mean I am done with the classic "Hello World" example). Below are some of my projects. 
-</p>
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Current</a></li>
+    <li><a href="#tabs-2">Interships</a></li>
+    <li><a href="#tabs-3">Past</a></li>
+    <li><a href="#tabs-4">RubyonRails</a></li>
+    <li><a href="#tabs-5">Android</a></li>
+    <li><a href="#tabs-6">Java/CSharp</a></li>    
+    <li><a href="#tabs-7">Hadoop/Pig</a></li>
+    <li><a href="#tabs-8">Education</a></li>
+  </ul>
 
-<table border="1" cellspacing="40">
-  <tr>
-    <th>Rails</th>
-    <th>C Sharp & Unity3D</th>
-    <th>Java & Android</th>
-  </tr>
-  <tr>
-    <td><a href="http://atulthapliyal-mitra.heroku.com/" target="_blank"><b>Mitra : Click to view</b></a></td>
-    <td>Word Guessing Game - Vocabulary builder</td>
-    <td>Nine Men Morris Game</td>
-  </tr>
-  <tr>
-    <td><a href="http://atulthapliyal-istore.heroku.com/" target="_blank"><b>Book Store : Click to view</b></a></td>
-    <td>Unity 3D games and experimets for kids</td>
-    <td>Travelling Sales Man</td>
-  </tr>
-  <tr>
-    <td>This website</td>
-    <td>Http 1.0 server in c and Others</td>
-    <td>Talking Missile(Android)- InProgress</td>
-  </tr>
+  <div id="tabs-1">
+    <%= render :partial => 'current' %>
+  </div>
 
-</table>
-<u><%= link_to "Virtual Physics experiments for kids", experiments_path %></u>
+  <div id="tabs-2">
+    <%= render :partial => 'internships' %>
+  </div>
+
+<div id="tabs-3">
+    <%= render :partial => 'past' %>
+  </div>
+
+  <div id="tabs-4">
+    <%= render :partial => 'rubyonrails' %>
+  </div>
+  
+  <div id="tabs-5">
+    <%= render :partial => 'android' %>
+  </div>
+    
+  <div id="tabs-6">
+    <%= render :partial => 'java' %>
+  </div>
+
+  <div id="tabs-7">
+    <%= render :partial => 'hadoop' %>
+  </div>
+
+  <div id="tabs-8">
+    <%= render :partial => 'education' %>
+  </div>
+</div>
+
+<u><%#= link_to "Virtual Physics experiments for kids", experiments_path %></u>
 
 
