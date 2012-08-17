@@ -2,6 +2,15 @@
   width: 70%;
 }
 
+#tweets {
+  width: 30%;
+  float:right;
+}
+
+#tweets .twtr-widget {
+  float:right;
+}
+
 body {
   background: #cff;
 }

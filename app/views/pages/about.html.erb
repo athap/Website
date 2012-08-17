@@ -1,3 +1,33 @@
+<div id="tweets">    
+      <script>
+        new TWTR.Widget({
+          version: 2,
+          type: 'profile',
+          rpp: 6,
+          interval: 30000,
+          width: 200,
+          height: 200,
+          theme: {
+            shell: {
+              background: '#333333',
+              color: '#ffffff'
+            },
+            tweets: {
+              background: '#000000',
+              color: '#ffffff',
+              links: '#4aed05'
+            }
+          },
+          features: {
+            scrollbar: true,
+            loop: false,
+            live: false,
+            behavior: 'all'
+          }
+        }).render().setUser('a_thap').start();
+      </script>
+    </div>
+
 <p>
 Hi !!
 I am a masters student at <a href="www.usu.edu" target="_blank">Utah State University</a>, Computer Science. I like Logan city as it is close to the nature with beautiful summer. Camping and fishing are at the top of my to do list. I also work for <a href="http://idias.usu.edu/" target="_blank">IDIAS</a> with <a href="http://itls.usu.edu/htm/profile&brett-shelton" target="_blank">Dr. Brett Shelton</a>.
